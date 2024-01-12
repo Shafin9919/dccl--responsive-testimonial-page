@@ -171,7 +171,7 @@ li {
     opacity: 1;
   }
 }
-@media screen and (min-width:600px){
+@media screen and (min-width:851px){
 
 .card{
   animation: right-to-left 1s ease-in-out 0.1s 1 normal forwards;
@@ -180,11 +180,11 @@ li {
   animation:  fade-in 1.1s ease-in-out 0.15s 1 normal forwards;;
 }
 }
-@media screen and (max-width:576px) {
+@media screen and (max-width:850px) {
   .card{
     animation-name: on-scroll ;
     animation-timeline: scroll();
-   
+  }
   #star{
     display: flex;
   }
