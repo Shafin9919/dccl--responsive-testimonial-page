@@ -39,12 +39,11 @@ main {
   margin-bottom: 1rem;
 }
 h1 {
-  
   font-size: var(--fs-h);
- 
 }
-h1,h3{
-color: var(--black);
+h1,
+h3 {
+  color: var(--black);
 }
 p {
   color: var(--gray);
@@ -98,8 +97,7 @@ li {
   border-radius: 15px;
   margin-bottom: 1rem;
 
-  animation: animation 1s ease-in-out .1s 1 normal forwards ;
- 
+  animation: animation 1s ease-in-out 0.1s 1 normal forwards;
 }
 
 .review {
@@ -111,7 +109,7 @@ li {
   /* gap: 5px; */
   margin-bottom: 1rem;
 }
-.testomonial-name{
+.testomonial-name {
   font-weight: 400;
 }
 .card-1 {
@@ -149,21 +147,17 @@ li {
   }
 }
 
-
-
 /* Test */
 
 @keyframes animation {
-  from{
+  from {
     transform: translateX(50%);
     opacity: 0;
   }
-  to{
+  to {
     transform: translateX(0%);
     opacity: 1;
   }
-
-  
 }
 /* .card-1{
     grid-column: auto;
