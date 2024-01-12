@@ -97,6 +97,9 @@ li {
   padding: 1.5rem 2.5rem;
   border-radius: 15px;
   margin-bottom: 1rem;
+
+  animation: animation 1s ease-in-out .1s 1 normal forwards ;
+ 
 }
 
 .review {
@@ -146,6 +149,22 @@ li {
   }
 }
 
+
+
+/* Test */
+
+@keyframes animation {
+  from{
+    transform: translateX(50%);
+    opacity: 0;
+  }
+  to{
+    transform: translateX(0%);
+    opacity: 1;
+  }
+
+  
+}
 /* .card-1{
     grid-column: auto;
 }
