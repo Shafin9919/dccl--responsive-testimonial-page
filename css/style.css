@@ -39,14 +39,20 @@ main {
   margin-bottom: 1rem;
 }
 h1 {
+  
   font-size: var(--fs-h);
-  font-weight: 700;
+ 
+}
+h1,h3{
+color: var(--black);
 }
 p {
+  color: var(--gray);
   font-size: var(--fs-b);
   font-weight: 300;
 }
 li {
+  color: var(--gray);
   font-size: var(--fs-l);
   margin-bottom: 0.5rem;
   display: flex;
@@ -101,6 +107,9 @@ li {
   justify-content: space-around;
   /* gap: 5px; */
   margin-bottom: 1rem;
+}
+.testomonial-name{
+  font-weight: 400;
 }
 .card-1 {
   grid-column: 3/6;
